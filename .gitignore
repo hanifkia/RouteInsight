@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+
+# Streamlit
+.streamlit/
+*.log
+
+# Data files (exclude sensitive or large data)
+src/report/*.csv
+
+# Docker
+Dockerfile.local
+*.dockerignore
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.DS_Store
+*.bak
+*.swp
+*~
